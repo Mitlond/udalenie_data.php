@@ -1,0 +1,132 @@
+﻿body, html {
+	width:calc(100% - 0px); /*ширина, важная часть для несдвигаемой картинки*/
+	height:calc(100% - 0px); /* высота, важная часть для несдвигаемой картинки*/
+	-background-color:#9F9F9F;
+	background-image:url(../img/1.jpg);
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+        }
+	   .pic-1{
+            background-image: url(../img/1.jpg);
+			background-size:100% 100%;
+        }
+        .pic-2{
+            background-image: url(../img/3.jpg);
+			background-size:100% 100%;
+        }
+        .pic-3{
+            background-image: url(../img/2.jpg);
+			background-size:100% 100%;
+        }
+
+/*	
+* {
+margin:0;
+padding:0;
+outline:none;
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+*/
+/*главный блок*/
+		.glavn{
+	width:1450px;
+	height:920px;
+	background-color:#ffffff;
+	-background-image:url(img/image.png);
+	transition:0.5s;
+	transition-timing-function: linear;
+    transition-duration: 5s;
+	margin:0 auto;
+	-border-radius:5px;
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+/*второй блок*/
+.reqd{
+	width:1450px;
+	height:750px;
+	-background-color:rgba(51,51,51, 0.5);
+	background-image:url(../img/4.jpg);
+	
+	  background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
+    color: white;
+	
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+.vis {
+	-background: #FFBD02;
+	position: fixed;
+	left: 50%;
+	top: 73%;
+	margin-top: -200px;
+	overflow: hidden;
+	z-index: 2000;
+	width: 379px;
+	padding: 0px;
+	margin-left: -90px;
+	height: 60;
+}
+span>p{
+color: #FD020A;
+margin-top:10%;
+margin-left:21%;
+text-transform: uppercase;
+}
+span{
+-color: #95FF00;
+margin-left: 7%;
+-text-transform: uppercase;
+}
+.ret{
+color: #95FF00;
+margin-left: 32%;
+text-transform: uppercase;
+}
+.ret:hover{
+color: #F78B00;
+}
+
+
+h2{
+margin-left:30%;
+}
+a>input{
+margin-left:38%;
+background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#E1D75B), color-stop(0.5, #E1D75B));
+padding: 7px 26px;
+color: #333;
+border-radius: 10px;
+border: 1px solid #666;
+}
+ul>input{
+margin-left:34%;
+background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#E1D75B), color-stop(0.5, #E1D75B));
+padding: 8px 46px;
+color: #333;
+border-radius: 15px;
+border: 2px solid #666;
+margin-top: -10px;
+}
+
+/* Настольные компьютеры и ноутбуки 
+@media (max-width: 1360px) and (min-width:768px) {
+.info {
+width:auto;
+margin-bottom:20px;
+text-align:center;
+}
+}
+----------- */

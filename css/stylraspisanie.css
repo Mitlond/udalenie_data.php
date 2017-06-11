@@ -1,0 +1,99 @@
+﻿body, html {
+	width:calc(100% - 0px); /*ширина, важная часть для несдвигаемой картинки*/
+	height:calc(100% - 0px); /* высота, важная часть для несдвигаемой картинки*/
+	-background-color:#9F9F9F;
+	background-image:url(../img/1.jpg);
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+    -overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+        }
+	   .pic-1{
+            background-image: url(../img/1.jpg);
+			background-size:100% 100%;
+        }
+        .pic-2{
+            background-image: url(../img/3.jpg);
+			background-size:100% 100%;
+        }
+        .pic-3{
+            background-image: url(../img/2.jpg);
+			background-size:100% 100%;
+        }
+/*главный блок*/
+	.glavn{
+	width:1450px;
+	height:935px;
+	-background-color:#ffffff;
+	-background-image:url(img/image.png);
+	transition:0.5s;
+	transition-timing-function: linear;
+    transition-duration: 5s;
+	-border-radius:5px;
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+/*второй блок*/
+.reqd{
+	width:1450px;
+	height:931px;
+	-background-color:rgba(51,51,51, 0.5);
+	background-image:url(../img/4.jpg);
+	
+	  background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
+    color: white;
+	
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+.reid{
+width:788px;
+	height:750px;
+	-border:1px solid #E7D8C3;
+	margin-left:17%;
+	margin-top:7%;
+}
+input{
+margin-left:29%;
+ text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: black;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  -text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #B8EF9E 0%, #F0D430 51%, #EC6C05 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+input:hover {background-position: right center;} 
+.q8{
+margin-left:67%;
+}
+.q10{
+margin-left:60%;
+}
+.q9{
+margin-left:58%;
+}
+.q10{
+margin-left:56%;
+}
+h2{
+color: #B8EF9E;
+margin-left:64%;
+}
+h2:hover{
+color: #FD8300;
+}

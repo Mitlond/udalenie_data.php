@@ -1,0 +1,336 @@
+﻿body, html {
+	width:calc(100% - 0px); /*ширина, важная часть для несдвигаемой картинки*/
+	height:calc(100% - 0px); /* высота, важная часть для несдвигаемой картинки*/
+	background-color:#9F9F9F;
+	background-image:url(../img/1.jpg);
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+        }
+	   .pic-1{
+            background-image: url(../img/1.jpg);
+			background-size:100% 100%;
+        }
+        .pic-2{
+            background-image: url(../img/3.jpg);
+			background-size:100% 100%;
+        }
+        .pic-3{
+            background-image: url(../img/2.jpg);
+			background-size:100% 100%;
+        }
+/*главный блок*/
+		.glavn{
+	width:1450px;
+	height:750px;
+	background-color:#ffffff;
+	-background-image:url(img/image.png);
+	transition:0.5s;
+	transition-timing-function: linear;
+    transition-duration: 5s;
+	margin:0 auto;
+	-border-radius:5px;
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+/*второй блок*/
+.reqd{
+	width:1450px;
+	height:830px;
+	-background-color:rgba(51,51,51, 0.5);
+	background-image:url(../img/4.jpg);
+	
+	  background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    color: white;
+	
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+.fon {
+	width:450px;
+	height:450;
+	margin:0 auto;
+	border:1px solid #E7D8C3;
+}
+
+/*блок для контента*/
+   .info {
+    width: 1207px;
+    height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    -border: 1px solid #212121;
+    margin-left: 223px;
+    margin-top: -55%;
+	font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    line-height: 26px;
+    /* text-transform: uppercase; */
+    text-indent: 33px;
+}
+p{
+color: #8BF906;
+font-size: 24px;
+line-height: 25px;
+text-indent: 33px;
+}
+span{
+-color: #95FF00;
+margin-left: 7%;
+-text-transform: uppercase;
+}
+h2{
+margin-top:0px;
+}
+a>input{
+margin-left:38%;
+background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#E1D75B), color-stop(0.5, #E1D75B));
+padding: 7px 26px;
+color: #333;
+border-radius: 10px;
+border: 1px solid #666;
+}
+ul>input{
+margin-left:34%;
+background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#E1D75B), color-stop(0.5, #E1D75B));
+padding: 8px 46px;
+color: #333;
+border-radius: 15px;
+border: 2px solid #666;
+margin-top: -10px;
+}
+.novosti{
+    width: 1403px;
+    height:270px;
+	-border:1px solid #E7D8C3;
+	margin-top:460px; 
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-left:-199px;
+
+  box-shadow:
+   -15px -15px 2px -5px rgba(160,82,45,.5),
+   -15px 15px 2px -5px rgba(0,255,255,.5),
+   15px -15px 2px -5px rgba(255,0,0,.5),
+   15px 15px 2px -5px rgba(255,255,0,.5);
+}
+/*второя часть блока*/
+.storm{
+	width:1450px;
+	height:750px;
+	background-color:#ffffff;
+	background-image:url(../img/12.jpg);
+	transition:0.5s;
+	transition-timing-function: linear;
+    transition-duration: 5s;
+	margin:0 auto;
+	-border-radius:5px;
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	-border:1px solid #E7D8C3;
+	margin-top:80px;
+    background-color: rgba(0,0,0,0.5);
+	background-blend-mode: darken;
+}
+.kill{
+    width:1400px;
+	height:750px;
+	-border:2px solid #E7D8C3;
+	margin:0 auto;
+}
+.trip{
+    width:1350px;
+	height:720px;
+	-border:2px solid #E7D8C3;
+	margin-left:20px;
+	margin-top:20px;
+}
+/*BLUR*/
+.blur img {
+  width:250px;
+	height:250px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 3s ease;
+}
+ 
+.blur img:hover {
+  -webkit-filter: blur(5px);
+}
+.q1{
+  height: 255px;
+  width: 255px;
+  -border:1px solid #E7D8C3;
+  margin-left:6%;
+  margin-top:4%;
+}
+/*GROW*/
+.grow img {
+  height: 250px;
+  width: 250px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+   transition: all 2s ease;
+}
+ 
+.grow img:hover {
+  width: 300px;
+  height: 300px;
+}
+.q2{
+  height: 255px;
+  width: 255px;
+  -border:1px solid #E7D8C3;
+  margin-left:29%;
+  margin-top:-19%;
+}
+/*Наклон*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+.q3{
+  height: 255px;
+  width: 255px;
+  -border:1px solid #E7D8C3;
+  margin-left:52%;
+  margin-top:-19%;
+}
+/*Сокращение в объеме*/
+.shrink img {
+  height: 255px;
+  width: 255px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 2s ease;
+}
+
+.shrink img:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.q4{
+  height: 255px;
+  width: 255px;
+  -border:1px solid #E7D8C3;
+  margin-left:75%;
+  margin-top:-19%;
+}
+span>p{
+color: #06F9E0;
+font-size: 23px;
+line-height: 29px;
+text-indent: 33px;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+span>p:hover{
+color: #FD8300;
+}
+.q5{
+ height: 337px;
+  width: 1350px;
+  box-shadow:
+   0 0 0 7px #E0FD00,
+   0 0 0 10px #FB5D00,
+   0 0 0 5px #FFD51B;
+   margin-top:1%;
+}
+/*третья часть блока*/
+.ritm{
+	width:1450px;
+	height:640px;
+	background-color:#ffffff;
+	background-image:url(../img/17.jpg);
+	transition:0.5s;
+	transition-timing-function: linear;
+    transition-duration: 5s;
+	margin:0 auto;
+	-border-radius:5px;
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	-border:1px solid #E7D8C3;
+    background-color: rgba(0,0,0,0.5);
+	background-blend-mode: darken;
+}
+.karta{
+    width:1400px;
+	height:260px;
+	margin:0 auto;
+}
+#map {
+			top: 11%;
+            width: 100%;
+            height: 563px;
+}
+
+.paneli a{
+  width: 170px;
+     text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: #080808;
+  padding: 16px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+  margin-left:-222px;
+   text-align: center;
+   margin-left:82%;
+}
+.paneli a:hover {background-position: right center;} 
+
+#auth_block a{
+     width: 141px;
+     text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: #080808;
+  padding: 16px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+  margin-left:-220px;
+   text-align: center;
+}
+#auth_block a:hover {background-position: right center;} 

@@ -1,0 +1,144 @@
+﻿body, html {
+	width:calc(100% - 0px); /*ширина, важная часть для несдвигаемой картинки*/
+	height:calc(100% - 0px); /* высота, важная часть для несдвигаемой картинки*/
+	-background-color:#9F9F9F;
+	background-image:url(../img/1.jpg);
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+        }
+/*	
+* {
+margin:0;
+padding:0;
+outline:none;
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+*/
+/*главный блок*/
+		.glavn{
+	width:1450px;
+	height:750px;
+	background-color:#ffffff;
+	-background-image:url(img/image.png);
+	transition:0.5s;
+	transition-timing-function: linear;
+    transition-duration: 5s;
+	margin:0 auto;
+	-border-radius:5px;
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+/*второй блок*/
+.reqd{
+	width:1450px;
+	height:750px;
+	-background-color:rgba(51,51,51, 0.5);
+	background-image:url(../img/4.jpg);
+	
+	  background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
+    color: white;
+	
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	-overflow:auto; /* подстройка поверх */
+	margin:0 auto;
+	-border:1px solid #E7D8C3;
+}
+
+.paneli a{
+  width: 170px;
+     text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: #080808;
+  padding: 16px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+  margin-left:-222px;
+   text-align: center;
+   margin-left:83%;
+}
+.paneli a:hover {background-position: right center;} 
+
+.fon{
+width:550px;
+	height:550px;
+	margin-left:40%;
+	-border:1px solid #E7D8C3;
+	margin-top:10px;
+	
+}
+a>input{
+width: 197px;
+     text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: #080808;
+  padding: 16px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+  margin-left:-222px;
+   text-align: center;
+   margin-left:-1%;
+}
+a>input:hover {background-position: right center;}
+
+span>input{
+width: 361px;
+     text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: #080808;
+  padding: 16px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+  margin-left:-222px;
+   text-align: center;
+   margin-left:13%;
+}
+span>input:hover {background-position: right center;}
+h3{
+margin-left:13%
+}
+h3:hover{
+ color: #080808;
+}
+/* Настольные компьютеры и ноутбуки 
+@media (max-width: 1360px) and (min-width:768px) {
+.info {
+width:auto;
+margin-bottom:20px;
+text-align:center;
+}
+}
+----------- */

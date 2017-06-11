@@ -1,0 +1,112 @@
+
+.clear{
+    clear: both;
+}
+
+.mesage_error{
+    color: #FB0202;
+	margin-top: -11%;
+	margin-left: 11%;
+	text-transform: uppercase;
+}
+
+.success_message{
+    color: #10FF10;
+	margin-top: -11%;
+	margin-left: 11%;
+	text-transform: uppercase;
+}
+
+.block_for_messages{
+    text-align: center;
+}
+
+#header{
+    padding-left: 10px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#header h2, #footer h2{
+    text-align: center;
+    -margin: 0;
+	margin-left:-20px;
+	color: #FDFF00;
+	text-indent: -8px;
+}
+#header h2:hover, #footer h2:hover{
+color: #FD8300;
+}
+#header h3, #footer h3{
+text-align: center;
+margin-left:20px;
+	color: #C600FD;
+	font-size: 30px;
+    line-height: 26px;
+    /* text-transform: uppercase; */
+    text-indent: 33px;
+}
+#header h3:hover, #footer h3:hover{
+color: #FD8300;
+}
+#header h1, #footer h1{
+text-align: center;
+	color: #C600FD;
+	font-size: 30px;
+    /* text-transform: uppercase; */;
+}
+
+#auth_block{
+    width: 266px;
+    float: right;
+}
+
+#auth_block a{
+     width: 141px;
+     text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: #080808;
+  padding: 16px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+  margin-left:-234px;
+   text-align: center;
+}
+#auth_block a:hover {background-position: right center;} 
+
+
+
+
+
+#link_register{
+    float: left;
+}
+
+#link_auth, #link_logout{
+    float: right;
+}
+
+
+/* Блок с формой регистрации */	
+#form_register, #form_auth{
+    width: 300px;	
+	margin-top: -35%;
+    margin-left: 43%;
+    -margin: 0 auto;
+}
+#authorized h2{
+    text-align: center;
+}
